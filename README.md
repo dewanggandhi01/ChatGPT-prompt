@@ -79,35 +79,170 @@ Sample JSON Output
 
 {
   "name": "Dewang Gandhi",
-  "email": "dewanggandhi2@gmail.com",
-  "phone": "+91-9411654775",
+  "contact": {
+    "phone": "+91-9411654775",
+    "email": "dewanggandhi2@gmail.com",
+    "linkedin": "dewang-gandhi-21323b331",
+    "github": "dewanggandhi01",
+    "leetcode": "dewang_gandhi01",
+    "portfolio": "Available"
+  },
   "education": [
     {
-      "degree": "BS Data Science",
-      "institution": "IIT Madras"
+      "degree": "BS in Data Science",
+      "institution": "Indian Institute of Technology Madras",
+      "mode": "Online",
+      "duration": "2023-2027",
+      "cgpa": "7.0"
     },
     {
-      "degree": "B.Tech Computer Science and Engineering",
-      "institution": "ABES Engineering College"
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "ABES Engineering College",
+      "location": "Ghaziabad, Uttar Pradesh",
+      "affiliation": "AKTU",
+      "duration": "2023-2027",
+      "cgpa": "8.5"
+    },
+    {
+      "qualification": "Senior Secondary (Class XII)",
+      "board": "CBSE",
+      "institution": "Krishna International School",
+      "location": "Aligarh, Uttar Pradesh",
+      "year": "2022-2023",
+      "percentage": "93.8%"
     }
   ],
-  "skills": [
-    "Python",
-    "Machine Learning",
-    "FastAPI",
-    "SQL"
-  ],
   "projects": [
-    "Data Analyst Agent",
-    "e-Raksha-Setu",
-    "Gandhi Traders Business Analytics"
+    {
+      "name": "Data Analyst Agent",
+      "year": "2025",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Seaborn",
+        "Matplotlib",
+        "Generative AI"
+      ],
+      "description": [
+        "Developed an AI-driven data analysis agent that processes datasets through natural language queries.",
+        "Integrated visualization, web scraping, and support for CSV, Excel, JSON, Parquet, and TXT files.",
+        "Implemented an end-to-end ML pipeline with API-based workflows."
+      ]
+    },
+    {
+      "name": "e-Raksha-Setu",
+      "year": "2025",
+      "technologies": [
+        "AI",
+        "Blockchain",
+        "Geo-Fencing"
+      ],
+      "description": [
+        "Developed an AI-powered tourist safety system using multiple risk factors.",
+        "Implemented geo-fencing and tracking with less than 2-second alert latency.",
+        "Built a blockchain-based Digital Identity system with SOS and E-FIR integration."
+      ]
+    },
+    {
+      "name": "Gandhi Traders Business Analytics & Inventory Optimization",
+      "year": "2024",
+      "technologies": [
+        "Excel",
+        "Data Analysis",
+        "Business Intelligence"
+      ],
+      "description": [
+        "Digitized handwritten sales and inventory records into structured datasets.",
+        "Analyzed revenue, profit, inventory, and customer insights.",
+        "Developed forecasting and inventory optimization models."
+      ]
+    },
+    {
+      "name": "DEBO (Real-Time Chat & Utility Platform)",
+      "year": "2025",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "Socket.io",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "description": [
+        "Developed a real-time chat and file-sharing platform.",
+        "Implemented QR and link-based file transfer.",
+        "Built utilities including PDF creation tools and multiplayer games."
+      ]
+    }
   ],
-  "internships": [],
+  "skills": {
+    "core_subjects": [
+      "Data Structures and Algorithms",
+      "Operating Systems",
+      "Object Oriented Programming",
+      "DBMS",
+      "Computer Networks"
+    ],
+    "programming_languages": [
+      "Python",
+      "C++",
+      "Java"
+    ],
+    "machine_learning_ai": [
+      "Scikit-learn",
+      "XGBoost",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Model Evaluation"
+    ],
+    "data_engineering_analytics": [
+      "ETL Pipelines",
+      "Data Cleaning",
+      "Business Analysis",
+      "Power BI",
+      "Excel"
+    ],
+    "web_development": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap"
+    ],
+    "backend_databases": [
+      "FastAPI",
+      "SQL"
+    ],
+    "cloud_deployment": [
+      "Vercel",
+      "Netlify",
+      "Render",
+      "Railway",
+      "GitHub Actions"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "VS Code",
+      "Jupyter Notebook",
+      "Google Colab",
+      "Replit",
+      "GitHub Copilot"
+    ]
+  },
+  "achievements_and_certifications": [
+    "Finalist, HackHeaven 2.0 - Top 12 out of 200+ teams",
+    "NCC C Certificate holder",
+    "IIT Madras Foundational Level and Diploma in Data Science",
+    "4 Star Problem Solving on HackerRank",
+    "C++ Programming (Beginner to Advanced) Certification",
+    "Solved 400+ coding problems across multiple platforms",
+    "Finalist at Paranox 2.0 Hackathon among 1500+ teams"
+  ],
   "work_experience": [],
-  "certifications": [],
-  "achievements": []
+  "internships": []
 }
-
 ---
 
 Applications
